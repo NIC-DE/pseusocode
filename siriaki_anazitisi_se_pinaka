@@ -1,0 +1,39 @@
+акцояихлос siriaki_anazitisi
+
+стахеяес
+  K=10;
+ 
+дедолема
+  I,arithmos:INTEGER;
+  A:ARRAY[1..K]OF INTEGER;  
+  vrethike:BOOLEAN;
+  
+ аявг
+  циа I:=1 еыс K епамакабе
+        тупысе("дысе стоивеиа пимайа:");
+        диабасе(A[I]);
+  циа-текос;
+  тупысе(EOLN,"дысе аяихло:");
+  диабасе(arithmos)
+  vrethike:=FALSE;
+  I:=1;
+  
+  емосы(vrethike=FALSE AND I<=K)епамакабе
+    еам(A[I]=arithmos)тоте
+	  vrethike:=TRUE;
+	аккиыс
+      vrethike:=FALSE
+      I:=I+1;
+    еам-текос;
+  емосы-текос;
+	
+  еам(vrethike=TRUE)тоте
+  тупысе(EOLN,"о аяихлос бяехгйе стг хесг:",I,EOLN);
+  аккиыс
+  тупысе("о аяихлос дем бяехгйе",EOLN);    
+  еам-текос;
+ текос
+
+
+  
+ 

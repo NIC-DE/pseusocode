@@ -1,0 +1,32 @@
+акцояихлос Factorial
+
+дедолема
+
+ N,J:INTEGER;
+
+сумаятгсг Factorial (N): INTEGER
+
+  диепажг
+  еисодос 
+   N: INTEGER;
+  енодос
+   Factorial: INTEGER;
+ 
+  аявг 
+  еам (N=1) тоте
+  Factorial:=1;
+  аккиыс
+  Factorial:=N*Factorial(N-1);  
+  тупысе(EOLN,Factorial);
+  
+  еам-текос; 
+ 
+  текос-сумаятгсгс
+
+  
+  аявг
+  тупысе("DOSE ARITHMO Factorial:",EOLN);
+  диабасе(N)
+  упокоцисе Factorial(N);  
+  текос
+  
